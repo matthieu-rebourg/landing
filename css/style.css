@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans")
+@import url("https://fonts.googleapis.com/css?family=Incosolata")
+@import url("components/container.css");
+@import url("components/button.css");
+
+
+body{
+	background: url('../images/éolienne.png')no-repeat;
+	background-size: cover;
+/*
+	background-attachment: fixed;
+	--> Le textebouge sur le fond
+*/
+	background-position: 0px 210px;
+	font-family:'Lora', serif;
+}
+
+
+header{
+	font-family:Arial;
+}
+
+header nav {
+		color:#FFFFFF;	
+}
+
+header nav ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+
+}
+
+header nav ul li{
+	margin:0px;
+	padding:0px;
+	float: left;
+	width:420px;
+	height:40px;	
+	background-color:rgba(0, 0, 0, 0.8);
+	line-height:40px;
+	text-align: center;
+}
+header nav ul li a{
+	display: block;
+}
+header nav ul li a:hover{
+background-color: blue;
+opacity:0.5;
+}
+header nav ul li ul li{
+	display:none;
+}
+header nav li:hover ul li{
+	display:block;
+}
+
+
+li{
+	font-size:25px;
+	word-spacing: 15px;
+	color: white;
+}  
+a {
+	text-decoration: none;
+	font-family: 'PT sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0px;
+}
+a:hover {
+	font-weight:bold;
+}
+h1,p{
+	color:white;
+	font-size:40px;
+
+}
+p{
+	font-family: 'incosolata', monospace;		
+}
+h2{
+	font-size:20px;
+
+/*Custom design with class*/
+}
+.text-center{
+	text-align: center; 
+}
+.logo a {
+ 	display: block;
+    float: left;
+    max-width: 100%;
+}
+
+.logo {
+	margin-top: 31px;
+    margin-right: 0px;
+    margin-bottom: 31px;
+    margin-left: 0px;
+}
+
+.card-white{
+	text-align: center;
+}
+
+

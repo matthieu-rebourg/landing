@@ -1,0 +1,38 @@
+.btn-blue{
+	background-color:#009B8B;
+	border-radius:2px;
+	color: white;
+	font-weight:bold;
+	padding: 17px 40px;
+	font-size: 20px;
+	display:inline-block;
+	margin:50px;
+	text-align: center;
+
+
+}
+
+.btn-blue:hover{
+	background-color:rgb(41, 124, 115);
+	color:white;
+}
+
+ div a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size: 100px;
+}
+
+div a:hover{
+	color:rgb(41, 124, 105);
+	font-weight:bold;
+}
+.list-inline{
+	list-style: none;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 30px;
+}
